@@ -1262,8 +1262,13 @@ public class Frame extends javax.swing.JFrame {
         
         
         TaskTable.setRowSelectionInterval(i, i);
-        HomePage.setVisible(false);
-        TaskManagerPage.setVisible(true);
+        
+        resetColor(HomePanel);
+        setColor(TaskManagerPanel);
+        resetColor(StatisticsPanel);
+        TaskManagerPage.setVisible(true) ;
+        HomePage.setVisible(false) ;
+        StatisticsPage.setVisible(false);
     }//GEN-LAST:event_ComingSoonTableMouseClicked
      
     /**

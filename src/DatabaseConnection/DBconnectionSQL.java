@@ -17,9 +17,9 @@ public class DBconnectionSQL {
     Statement st ;
     ResultSet rs ;
     
-    String url = "jdbc:mysql://localhost:3306/iptaskmanagerdb";
-    String login="root";
-    String password="";
+    String url = "jdbc:mysql://SERVER_NAME:3306/DATABASE_NAME";
+    String login="USERNAME";
+    String password="PASSWORD";
     
     public DBconnectionSQL()
     {
